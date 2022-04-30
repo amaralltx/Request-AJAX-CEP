@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX - Auto CEP</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="center">
+        <fieldset class="fieldset">
+            <legend>Buscando CEP com requisição AJAX</legend>
+            <div class="central">
+                
+                <div class="cep">
+                    <span>CEP</span>
+                    <br>
+                    <input type="text" maxlength="14" name="CEP" class="cep-input" id="cep">
+                    
+                </div>
+                
+                <div class="address">
+                    <span>Endereço</span>
+                    <br>
+                    <input type="text" name="adress" class="address-input" id="adress">
+                </div>
+        
+                <div class="number">
+                    <span>Número</span>
+                    <br>
+                    <input type="number" name="number" class="number-input" id="number">
+                </div>
+        
+                <div class="bairro">
+                    <span>Bairro</span>
+                    <br>
+                    <input type="text" name="bairro" class="bairro-input" id="bairro">
+                </div>
+        
+                <div class="complement">
+                    <span>Complemento</span>
+                    <br>
+                    <input type="text" name="complement" class="complement-input" id="complement">
+                </div>
+        
+                <div class="city">
+                    <span>Cidade</span>
+                    <br>
+                    <input type="text" name="city" class="city-input" id="city">
+                </div>
+        
+                <div class="estado">
+                    <span>Estado</span>
+                    <br>
+                    <select name="estado" class="estado-input" id="estado">
+                        <optgroup>
+                            <option value="estado">Selecione o Estado</option> 
+                            <option value="AC">Acre</option> 
+                            <option value="AL">Alagoas</option> 
+                            <option value="AM">Amazonas</option> 
+                            <option value="AP">Amapá</option> 
+                            <option value="BA">Bahia</option> 
+                            <option value="CE">Ceará</option> 
+                            <option value="DF">Distrito Federal</option> 
+                            <option value="ES">Espírito Santo</option> 
+                            <option value="GO">Goiás</option> 
+                            <option value="MA">Maranhão</option> 
+                            <option value="MT">Mato Grosso</option> 
+                            <option value="MS">Mato Grosso do Sul</option> 
+                            <option value="MG">Minas Gerais</option> 
+                            <option value="PA">Pará</option> 
+                            <option value="PB">Paraíba</option> 
+                            <option value="PR">Paraná</option> 
+                            <option value="PE">Pernambuco</option> 
+                            <option value="PI">Piauí</option> 
+                            <option value="RJ">Rio de Janeiro</option> 
+                            <option value="RN">Rio Grande do Norte</option> 
+                            <option value="RO">Rondônia</option> 
+                            <option value="RS">Rio Grande do Sul</option> 
+                            <option value="RR">Roraima</option> 
+                            <option value="SC">Santa Catarina</option> 
+                            <option value="SE">Sergipe</option> 
+                            <option value="SP">São Paulo</option> 
+                            <option value="TO">Tocantins</option> 
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

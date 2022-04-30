@@ -1,0 +1,111 @@
+.body {
+    height: 100vh;
+    
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.fieldset {
+    width: 650px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+}
+
+.top {
+    width: 680px;
+    background-color: aliceblue;
+    padding: 16px;
+    color: rgb(70, 70, 70);
+}
+
+.central {
+    font-family: 'Radio Canada', sans-serif;
+    width: 660px;
+    padding: 24px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+optgroup {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.bairro,
+.complement,
+.city,
+.estado{
+    margin-top: 16px;
+}
+
+.cep-input,
+.address-input,
+.number-input,
+.bairro-input,
+.complement-input,
+.city-input,
+.estado-input {
+    border-radius: 2px;
+    border: 2px solid rgb(150, 150, 150);
+    padding: 4px;
+}
+
+.cep-input{
+    width: 74px;
+}
+.address-input{
+    width: 400px;
+}
+.number-input{
+    width: 80px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input {
+    outline:none!important;
+}
+
+.bairro-input{
+    width: 445px;
+}
+
+.complement-input{
+    width: 150px;
+}
+.city-input{
+    width: 430px;
+}
+
+.cep-input:focus,
+.address-input:focus,
+.number-input:focus,
+.bairro-input:focus,
+.complement-input:focus,
+.city-input:focus,
+.estado-input:focus {
+    background-color: rgb(243, 243, 243);
+}

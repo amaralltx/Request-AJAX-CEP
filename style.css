@@ -11,6 +11,7 @@
 }
 
 .fieldset {
+    font-family: 'Radio Canada', sans-serif;
     width: 650px;
     display: flex;
     justify-content: center;    

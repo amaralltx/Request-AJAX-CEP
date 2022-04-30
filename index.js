@@ -42,7 +42,7 @@ function buscaCep(){
 }
 
 function preencheCampos(json){
-    if("erro" in json) return;
+    if(json === null) return;
     document.querySelector("#adress").value = json.logradouro;
 
     document.querySelector("#bairro").value = json.bairro;
